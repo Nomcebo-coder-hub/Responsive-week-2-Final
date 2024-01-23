@@ -1,0 +1,110 @@
+:root {
+  --primary-color: black;
+  --secondary-color: rgb(84, 83, 83);
+  --background-color: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+body {
+  text-align: center;
+  background: var(--background-color);
+}
+
+.hello-world {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.about-info {
+  font-size: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+h2,
+h3 {
+  color: var(--secondary-color);
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.hello-world,
+.email-to {
+  color: var(--primary-color);
+}
+
+.about-team {
+  display: flex;
+}
+
+.about-cv {
+  padding: 10px;
+  flex: 1;
+}
+
+.find-me {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.about-me {
+  color: white;
+  background: blueviolet;
+  border: 1px solid blueviolet;
+  padding: 20px 15px;
+  margin: 20px;
+  text-decoration: none;
+  flex: 1;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.info-me {
+  color: blueviolet;
+  background: white;
+  border: 1px solid blueviolet;
+  padding: 20px 15px;
+  margin: 20px;
+  text-decoration: none;
+  flex: 1;
+}
+
+p {
+  border: 1px solid lavender;
+  background: lavender;
+  text-align: justify;
+  padding: 30px 40px;
+}
+
+.email-me {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.email-to {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.email-from:visited {
+  color: blue;
+  text-decoration: underline;
+}
