@@ -104,3 +104,12 @@ p {
 .bg-light {
   background-color: #f5f2fe !important;
 }
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
