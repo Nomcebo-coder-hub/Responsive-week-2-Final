@@ -89,3 +89,8 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
